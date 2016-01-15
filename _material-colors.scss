@@ -1,0 +1,298 @@
+// ==========================================================================
+// Sass Material Design Color Pallete
+//                 From https://www.google.com/design/spec/style/color.html
+// ========================================================================== 
+
+// Color Variables
+// --------------------------------------------------------------------------
+$m-red-50  : #ffebee;
+$m-red-100 : #ffcdd2;
+$m-red-200 : #ef9a9a;
+$m-red-300 : #e57373;
+$m-red-400 : #ef5350;
+$m-red-500 : #f44336;
+$m-red-600 : #e53935;
+$m-red-700 : #d32f2f;
+$m-red-800 : #c62828;
+$m-red-900 : #b71c1c;
+$m-red-a100: #ff8a80;
+$m-red-a200: #ff5252;
+$m-red-a400: #ff1744;
+$m-red-a700: #d50000;
+
+$m-pink-50  : #fce4ec;
+$m-pink-100 : #f8bbd0;
+$m-pink-200 : #f48fb1;
+$m-pink-300 : #f06292;
+$m-pink-400 : #ec407a;
+$m-pink-500 : #e91e63;
+$m-pink-600 : #d81b60;
+$m-pink-700 : #c2185b;
+$m-pink-800 : #ad1457;
+$m-pink-900 : #880e4f;
+$m-pink-a100: #ff80ab;
+$m-pink-a200: #ff4081;
+$m-pink-a400: #f50057;
+$m-pink-a700: #c51162;
+
+$m-purple-50  : #f3e5f5;
+$m-purple-100 : #e1bee7;
+$m-purple-200 : #ce93d8;
+$m-purple-300 : #ba68c8;
+$m-purple-400 : #ab47bc;
+$m-purple-500 : #9c27b0;
+$m-purple-600 : #8e24aa;
+$m-purple-700 : #7b1fa2;
+$m-purple-800 : #6a1b9a;
+$m-purple-900 : #4a148c;
+$m-purple-a100: #ea80fc;
+$m-purple-a200: #e040fb;
+$m-purple-a400: #d500f9;
+$m-purple-a700: #aa00ff;
+
+$m-deep-purple-50  : #ede7f6;
+$m-deep-purple-100 : #d1c4e9;
+$m-deep-purple-200 : #b39ddb;
+$m-deep-purple-300 : #9575cd;
+$m-deep-purple-400 : #7e57c2;
+$m-deep-purple-500 : #673ab7;
+$m-deep-purple-600 : #5e35b1;
+$m-deep-purple-700 : #512da8;
+$m-deep-purple-800 : #4527a0;
+$m-deep-purple-900 : #311b92;
+$m-deep-purple-a100: #b388ff;
+$m-deep-purple-a200: #7c4dff;
+$m-deep-purple-a400: #651fff;
+$m-deep-purple-a700: #6200ea;
+
+$m-indigo-50  : #e8eaf6;
+$m-indigo-100 : #c5cae9;
+$m-indigo-200 : #9fa8da;
+$m-indigo-300 : #7986cb;
+$m-indigo-400 : #5c6bc0;
+$m-indigo-500 : #3f51b5;
+$m-indigo-600 : #3949ab;
+$m-indigo-700 : #303f9f;
+$m-indigo-800 : #283593;
+$m-indigo-900 : #1a237e;
+$m-indigo-a100: #8c9eff;
+$m-indigo-a200: #536dfe;
+$m-indigo-a400: #3d5afe;
+$m-indigo-a700: #304ffe;
+
+$m-blue-50  : #e3f2fd;
+$m-blue-100 : #bbdefb;
+$m-blue-200 : #90caf9;
+$m-blue-300 : #64b5f6;
+$m-blue-400 : #42a5f5;
+$m-blue-500 : #2196f3;
+$m-blue-600 : #1e88e5;
+$m-blue-700 : #1976d2;
+$m-blue-800 : #1565c0;
+$m-blue-900 : #0d47a1;
+$m-blue-a100: #82b1ff;
+$m-blue-a200: #448aff;
+$m-blue-a400: #2979ff;
+$m-blue-a700: #2962ff;
+
+$m-light-blue-50  : #e1f5fe;
+$m-light-blue-100 : #b3e5fc;
+$m-light-blue-200 : #81d4fa;
+$m-light-blue-300 : #4fc3f7;
+$m-light-blue-400 : #29b6f6;
+$m-light-blue-500 : #03a9f4;
+$m-light-blue-600 : #039be5;
+$m-light-blue-700 : #0288d1;
+$m-light-blue-800 : #0277bd;
+$m-light-blue-900 : #01579b;
+$m-light-blue-a100: #80d8ff;
+$m-light-blue-a200: #40c4ff;
+$m-light-blue-a400: #00b0ff;
+$m-light-blue-a700: #0091ea;
+
+$m-cyan-50  : #e0f7fa;
+$m-cyan-100 : #b2ebf2;
+$m-cyan-200 : #80deea;
+$m-cyan-300 : #4dd0e1;
+$m-cyan-400 : #26c6da;
+$m-cyan-500 : #00bcd4;
+$m-cyan-600 : #00acc1;
+$m-cyan-700 : #0097a7;
+$m-cyan-800 : #00838f;
+$m-cyan-900 : #006064;
+$m-cyan-a100: #84ffff;
+$m-cyan-a200: #18ffff;
+$m-cyan-a400: #00e5ff;
+$m-cyan-a700: #00b8d4;
+
+$m-teal-50  : #e0f2f1;
+$m-teal-100 : #b2dfdb;
+$m-teal-200 : #80cbc4;
+$m-teal-300 : #4db6ac;
+$m-teal-400 : #26a69a;
+$m-teal-500 : #009688;
+$m-teal-600 : #00897b;
+$m-teal-700 : #00796b;
+$m-teal-800 : #00695c;
+$m-teal-900 : #004d40;
+$m-teal-a100: #a7ffeb;
+$m-teal-a200: #64ffda;
+$m-teal-a400: #1de9b6;
+$m-teal-a700: #00bfa5;
+
+$m-green-50  : #e8f5e9;
+$m-green-100 : #c8e6c9;
+$m-green-200 : #a5d6a7;
+$m-green-300 : #81c784;
+$m-green-400 : #66bb6a;
+$m-green-500 : #4caf50;
+$m-green-600 : #43a047;
+$m-green-700 : #388e3c;
+$m-green-800 : #2e7d32;
+$m-green-900 : #1b5e20;
+$m-green-a100: #b9f6ca;
+$m-green-a200: #69f0ae;
+$m-green-a400: #00e676;
+$m-green-a700: #00c853;
+
+$m-light-green-50  : #f1f8e9;
+$m-light-green-100 : #dcedc8;
+$m-light-green-200 : #c5e1a5;
+$m-light-green-300 : #aed581;
+$m-light-green-400 : #9ccc65;
+$m-light-green-500 : #8bc34a;
+$m-light-green-600 : #7cb342;
+$m-light-green-700 : #689f38;
+$m-light-green-800 : #558b2f;
+$m-light-green-900 : #33691e;
+$m-light-green-a100: #ccff90;
+$m-light-green-a200: #b2ff59;
+$m-light-green-a400: #76ff03;
+$m-light-green-a700: #64dd17;
+
+$m-lime-50  : #f9fbe7;
+$m-lime-100 : #f0f4c3;
+$m-lime-200 : #e6ee9c;
+$m-lime-300 : #dce775;
+$m-lime-400 : #d4e157;
+$m-lime-500 : #cddc39;
+$m-lime-600 : #c0ca33;
+$m-lime-700 : #afb42b;
+$m-lime-800 : #9e9d24;
+$m-lime-900 : #827717;
+$m-lime-a100: #f4ff81;
+$m-lime-a200: #eeff41;
+$m-lime-a400: #c6ff00;
+$m-lime-a700: #aeea00;
+
+$m-yellow-50  : #fffde7;
+$m-yellow-100 : #fff9c4;
+$m-yellow-200 : #fff59d;
+$m-yellow-300 : #fff176;
+$m-yellow-400 : #ffee58;
+$m-yellow-500 : #ffeb3b;
+$m-yellow-600 : #fdd835;
+$m-yellow-700 : #fbc02d;
+$m-yellow-800 : #f9a825;
+$m-yellow-900 : #f57f17;
+$m-yellow-a100: #ffff8d;
+$m-yellow-a200: #ffff00;
+$m-yellow-a400: #ffea00;
+$m-yellow-a700: #ffd600;
+
+$m-amber-50  : #fff8e1;
+$m-amber-100 : #ffecb3;
+$m-amber-200 : #ffe082;
+$m-amber-300 : #ffd54f;
+$m-amber-400 : #ffca28;
+$m-amber-500 : #ffc107;
+$m-amber-600 : #ffb300;
+$m-amber-700 : #ffa000;
+$m-amber-800 : #ff8f00;
+$m-amber-900 : #ff6f00;
+$m-amber-a100: #ffe57f;
+$m-amber-a200: #ffd740;
+$m-amber-a400: #ffc400;
+$m-amber-a700: #ffab00;
+
+$m-orange-50  : #fff3e0;
+$m-orange-100 : #ffe0b2;
+$m-orange-200 : #ffcc80;
+$m-orange-300 : #ffb74d;
+$m-orange-400 : #ffa726;
+$m-orange-500 : #ff9800;
+$m-orange-600 : #fb8c00;
+$m-orange-700 : #f57c00;
+$m-orange-800 : #ef6c00;
+$m-orange-900 : #e65100;
+$m-orange-a100: #ffd180;
+$m-orange-a200: #ffab40;
+$m-orange-a400: #ff9100;
+$m-orange-a700: #ff6500;
+
+$m-deep-orange-50  : #fbe9e7;
+$m-deep-orange-100 : #ffccbc;
+$m-deep-orange-200 : #ffab91;
+$m-deep-orange-300 : #ff8a65;
+$m-deep-orange-400 : #ff7043;
+$m-deep-orange-500 : #ff5722;
+$m-deep-orange-600 : #f4511e;
+$m-deep-orange-700 : #e64a19;
+$m-deep-orange-800 : #d84315;
+$m-deep-orange-900 : #bf360c;
+$m-deep-orange-a100: #ff9e80;
+$m-deep-orange-a200: #ff6e40;
+$m-deep-orange-a400: #ff3d00;
+$m-deep-orange-a700: #dd2c00;
+
+$m-brown-50 : #efebe9;
+$m-brown-100: #d7ccc8;
+$m-brown-200: #bcaaa4;
+$m-brown-300: #a1887f;
+$m-brown-400: #8d6e63;
+$m-brown-500: #795548;
+$m-brown-600: #6d4c41;
+$m-brown-700: #5d4037;
+$m-brown-800: #4e342e;
+$m-brown-900: #3e2723;
+
+$m-grey-50 : #fafafa;
+$m-grey-100: #f5f5f5;
+$m-grey-200: #eeeeee;
+$m-grey-300: #e0e0e0;
+$m-grey-400: #bdbdbd;
+$m-grey-500: #9e9e9e;
+$m-grey-600: #757575;
+$m-grey-700: #616161;
+$m-grey-800: #424242;
+$m-grey-900: #212121;
+
+$m-blue-grey-50 : #eceff1;
+$m-blue-grey-100: #cfd8dc;
+$m-blue-grey-200: #b0bec5;
+$m-blue-grey-300: #90a4ae;
+$m-blue-grey-400: #78909c;
+$m-blue-grey-500: #607d8b;
+$m-blue-grey-600: #546e7a;
+$m-blue-grey-700: #455a64;
+$m-blue-grey-800: #37474f;
+$m-blue-grey-900: #263238;
+
+
+// Opacity for text, icons, and dividers
+//
+// Transparent black or white text behaves more flexibly than grey text 
+// because it remains legible and vibrant against background color changes.
+// ------------------------------------------------------------------------
+
+/* For dark elements on a light background */
+$op-dark-text     : .87;
+$op-dark-secondary: .54;
+$op-dark-disabled : .38; // for disabled item or hint
+$op-dark-divider  : .12;
+
+/* For light elements on a dark background */
+$op-light-text     :  1;
+$op-light-secondary: .7;
+$op-light-disabled : .3; // for disabled item or hint
+$op-light-divider  : .12;
